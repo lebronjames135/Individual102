@@ -36,8 +36,9 @@ This project aims to predict which banking customers are likely to churn (close 
 - Recall remains low for both models – Identifying churned customers is challenging due to class imbalance (only 20.4% churn).
 ## 5. How to Run
 bash
-# Requirements
+ Requirements
 pip install pandas numpy matplotlib scikit-learn
-# Run the notebook
+ Run the notebook
 jupyter notebook "Banking Customer Churn Prediction.ipynb"
 Make sure Churn_Modelling.csv is in the same directory as the notebook.
+
