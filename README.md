@@ -41,4 +41,19 @@ pip install pandas numpy matplotlib scikit-learn
  Run the notebook
 jupyter notebook "Banking Customer Churn Prediction.ipynb"
 Make sure Churn_Modelling.csv is in the same directory as the notebook.
+## 6.Product Link
+https://github.com/lebronjames135/ACC102/blob/main/Banking%20Customer%20Churn%20Prediction.ipynb?short_path=f2b542b
+## 7. Limitations & Next Steps
+Limitations:
+- Class imbalance (20.4% churn) limits minority class detection.
+- No hyperparameter tuning or advanced feature engineering.
+- Simple label encoding for geography (one-hot encoding would be better).
+- Limited features – lacks customer service logs, transaction frequency, or complaint data.
+Next Steps:
+- Apply SMOTE or class weights to address imbalance.
+- Use ensemble models (Random Forest, XGBoost, Gradient Boosting).
+- Perform GridSearchCV for hyperparameter tuning.
+- Create interaction features (e.g., Balance / NumOfProducts).
+- Adjust classification threshold to prioritize recall (catching churners is more valuable than precision).
+
 
