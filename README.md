@@ -42,7 +42,8 @@ pip install pandas numpy matplotlib scikit-learn
 jupyter notebook "Banking Customer Churn Prediction.ipynb"
 Make sure Churn_Modelling.csv is in the same directory as the notebook.
 ## 6.Product Link
-https://github.com/lebronjames135/ACC102/blob/main/Banking%20Customer%20Churn%20Prediction.ipynb?short_path=f2b542b
+- https://github.com/lebronjames135/Individual102.git
+- video.xjtlu.edu.cn/Mediasite/MyMediasite/embedded/presentations/e8ad0724ebe44eeb8bb9b980e60a66cf1d
 ## 7. Limitations & Next Steps
 Limitations:
 - Class imbalance (20.4% churn) limits minority class detection.
